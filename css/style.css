@@ -1,0 +1,101 @@
+.container{
+    width: 800px;
+    height: 500px;
+    background-color: red;
+    border: 10px solid #DBCCFD;
+    position: relative;
+    margin: 0 auto;
+}
+.two{
+    width: 150px;
+    height: 150px;
+    border: 3px solid #DBCCFD;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    background: #00cccc;
+    border-radius: 50%; 
+    position: absolute;
+    animation:parvez;
+    animation-duration:10s;
+    animation-iteration-count: infinite;
+  
+}  
+.ami{
+    width: 150px;
+    height: 150px;
+    border: 3px solid #DBCCFD;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    background: #009966;
+    border-radius: 50%; 
+    position: absolute;
+    animation:supti;
+    animation-duration:10s;
+    animation-iteration-count: infinite;
+    
+}
+.four{
+    width: 150px;
+    height: 150px;
+    border: 3px solid #DBCCFD;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    background: #ff00cc;
+    border-radius: 50%; 
+    position: absolute;
+    animation:akash;
+    animation-duration:10s;
+    animation-iteration-count: infinite;
+   
+}
+.five{
+    width: 150px;
+    height: 150px;
+    border: 3px solid #DBCCFD;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    background: #00cccc;
+    border-radius: 50%; 
+    position: absolute;
+    animation:sumaiya;
+    animation-duration:10s;
+    animation-iteration-count: infinite;
+  
+}
+@keyframes parvez{
+    0%{left:0;top:0}
+    30%{left:650px;top:0;opacity:0;}
+    50%{left:650px;top:350px;opacity:1;}
+    80%{left:0;top:350px;opacity:0;}
+    90%{left:0;top:0;opacity:1;}
+    100%{left:40%;top:35%;opacity:0;}
+}
+@keyframes supti{
+    0%{left:0;bottom:0}
+    30%{left:650px;bottom:0;opacity:0;}
+    50%{left:650px;bottom:350px;opacity:1;}
+    80%{left:0;bottom:350px;opacity:0;}
+    90%{left:0;bottom:0;opacity:1;}
+    100%{left:40%;bottom:35%;opacity:0;}
+}
+@keyframes akash{
+    0%{right:0;top:0}
+    30%{right:650px;top:0;opacity:0;}
+    50%{right:650px;top:350px;opacity:1;}
+    80%{right:0;top:350px;opacity:0;}
+    90%{right:0;top:0;opacity:1;}
+   100%{right:40%;top:35%;opacity:0;}
+}
+@keyframes sumaiya{
+    0%{right:0;bottom:0}
+    30%{right:650px;bottom:0;opacity:0;}
+    50%{right:650px;bottom:350px;opacity:1;}
+    80%{right:0;bottom:350px;opacity:0;}
+    90%{right:0;bottom:0;opacity:1;}
+    100%{right:40%;bottom:35%;opacity:0;}
+}
+
